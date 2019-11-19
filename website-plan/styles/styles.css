@@ -1,0 +1,111 @@
+
+html { font-size: 10px;
+font-family: Helvetica, Arial, sans-serif; }
+
+header { padding: 2rem; 
+    color:chocolate;
+background-color:beige;
+text-align: left; 
+}
+h1 {
+    font-size: 6rem;
+    color: darkgreen;
+    background-color:beige;
+    text-align: center;
+    border-bottom-color:darkgreen;
+    border-bottom-width: 1rem;
+    border-bottom-style: outset;   
+}
+
+
+h2 {
+    font-size: 5rem;
+    text-align: center;
+    color: black;
+    padding: 7rem;
+}
+
+p { font-size: 3rem;
+    
+}
+li{ font-size: 3rem;   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+}
+
+footer {
+    background-color: black;
+    text-align: right;
+    color:chartreuse;
+    font-size: 1.5rem;
+    border-bottom-color: floralwhite;
+    border-bottom-width: .5rem;
+    border-bottom-style: solid;
+}
+
+body {
+  background-color: tan;
+}
+
+
+
+
+li{ line-height: 1.5; }
+
+a:link { color: #e60000; }
+
+a:visited { color:#b300b3; }
+
+a:hover { color: #cc3300; background-color: #ebebe0; text-decoration: none; }
+
+a:active { color: #ebebe0; background-color: #cc3300; text-decoration: none; }
+
+/* For landscape tablets and laptops */
+@media screen and (min-width: 601px) and (max-width: 1099px) {
+    header nav ul li.menu-title {
+      width: 100%;
+      display: block;
+    }
+    header nav ul li {
+      width: 15%;
+      float: left;
+      padding: 3px;
+    }
+    header nav ul li a {
+      padding: 0.5em;
+      float: left;
+      display: block;
+      width: 100%;
+      border: none;
+    }
+    header nav ul li.disabled {
+      display: none;
+    }
+  }
+  /* For portrait tablets and phones */
+@media screen and (max-width: 600px) {
+    header nav ul li.menu-title {
+      width: 100%;
+      display: block;
+    }
+    header nav ul li {
+      width: 30%;
+      float: left;
+      padding: 3px;
+    }
+    header nav ul li a {
+      padding: 0.5em;
+      float: left;
+      display: block;
+      width: 100%;
+      border: none;
+    }
+    header nav ul li.disabled {
+      display: none;
+    }
+  }
