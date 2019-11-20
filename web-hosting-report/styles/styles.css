@@ -1,0 +1,143 @@
+
+html { font-size: 10px;
+font-family: Helvetica, Arial, sans-serif; }
+
+header { padding: 2rem; 
+    color:chocolate;
+background-color:beige;
+text-align: left; 
+}
+hr{
+  padding:2rem;
+  background-color:white;
+}
+h1 {
+    font-size: 6rem;
+    color: darkgreen;
+    background-color:beige;
+    text-align: center;
+    border-bottom-color:darkgreen;
+    border-bottom-width: 1rem;
+    border-bottom-style: outset;   
+}
+
+
+h2 {
+    font-size: 5rem;
+    text-align: center;
+    color: black;
+    padding: 7rem;
+}
+h3{
+  font-size: 5rem;
+  color: black;
+  }
+
+  p { font-size: 3rem;
+    
+}
+li{ font-size: 3rem;   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(8, 10, 14, 0.322); 
+}
+
+footer {
+    background-color: black;
+    text-align: right;
+    color:chartreuse;
+    font-size: 1.5rem;
+    border-bottom-color: floralwhite;
+    border-bottom-width: .5rem;
+    border-bottom-style: solid;
+}
+
+body {
+  background-color: rgb(190, 207, 216);
+}
+
+
+/*-------this is for links to change color once click--------*/
+
+li{ line-height: 1.5; }
+
+a:link { color: #e60000; }
+
+a:visited { color:#b300b3; }
+
+a:hover { color: #cc3300; background-color: #ebebe0; text-decoration: none; }
+
+a:active { color: #ebebe0; background-color: #cc3300; text-decoration: none; }
+
+
+/*-------------------------------*/
+/* For landscape tablets and laptops */
+@media screen and (min-width: 601px) and (max-width: 1099px) {
+    header nav ul li.menu-title {
+      width: 100%;
+      display: block;
+    }
+    header nav ul li {
+      width: 15%;
+      float: left;
+      padding: 3px;
+    }
+    header nav ul li a {
+      padding: 0.5em;
+      float: left;
+      display: block;
+      width: 100%;
+      border: none;
+    }
+    header nav ul li.disabled {
+      display: none;
+    }
+  }
+  /* For portrait tablets and phones */
+@media screen and (max-width: 600px) {
+    header nav ul li.menu-title {
+      width: 100%;
+      display: block;
+    }
+    header nav ul li {
+      width: 30%;
+      float: left;
+      padding: 3px;
+    }
+    header nav ul li a {
+      padding: 0.5em;
+      float: left;
+      display: block;
+      width: 100%;
+      border: none;
+    }
+    header nav ul li.disabled {
+      display: none;
+    }
+  }
+
+
+/*--------------------------separating my css */
+  table, th, td {
+    border: 2rem solid #3f3a3a;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 6rem;
+}
+
+table {
+    border: 6rem solid gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 7rem 6rem;
+}
+
+.tableColor {
+    background-color: mediumpurple;
+}
