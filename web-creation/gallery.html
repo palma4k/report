@@ -4,24 +4,106 @@
     <meta charset="utf-8">
       <meta name="viewpoint" content="width=device-width"/>
     <title>Ever Hernandez</title>
-   <link href="styles/styles.css" rel="stylesheet"> 
+   <link href="styles/images.css" rel="stylesheet"> 
   
   </head>
 
+  <header>
+        <title>LetsJam.com</title>
+        <nav>
+          <ul>
+              <ul>
+                  <li><a href="index.html">home page</a></li>
+                  <li><a href="site-purpose.html">Site Purpose</a></li>
+                  <li><a href="overview.html">Overview</a></li>
+                    <li><a href="gallery.html">Images</a></li>
+                  <li><a href="bass-history.html">Bass History</a></li>
+                  <li><a href="contact.html">Contact Information</a></li>
+                  <li><a href="fqa.html">Frequently ask questions</a></li>	
+                </ul>
+          </ul>
+        </nav>
+        </header>
+
+      <br>  
   <body>
+     <br> 
+     <h1>LetsJam.com</h1>
+    <main>
+       
+        
 
+</main>
+<div style="text-align:center">
+  <h2>Gallery</h2>
+  <p>My bass in different positions, click image to enlarge:</p>
+</div>
 
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+      <img src="images/bass.jpg" alt="6 string bass" style="height:300px; width:300px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+      <img src="images/bass1.jpg" alt="6 string bass" style="height:300px; width:300px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+      <img src="images/bass2.jpg" alt="6 string bass" style="height:300px; width:300px;" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+          <img src="images/bass3.jpg"  style= "height:300px; width:300px;" onclick="myFunction(this);"
+               alt= "my 6 string bass">
+             
+  </div>
+</div>
+<br>
 
-
-  <footer>
-        <p> &copy; Ever Hernandez. Yut, Yut!!!  (USMC lingo) </p>
-      </footer>
-      
-      <!-- Enable includes -->
-      <script src="scripts/includes.js"></script>
-      <script>
-        includeHTML();
-        </script>
-      
-      </body>
-      </html>
+    
+    <div style="text-align:center">
+           
+        </div>
+        
+        <!-- The four columns -->
+        <div class="row">
+            <div class="column">
+                <img src="images/bass7.jpg" alt="6 string bass" style="height:300px; width:300px;" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="images/bass6.jpg" alt="6 string bass" style="height:300px; width:300px;" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="images/bass5.jpg" alt="6 string bass" style="height:300px; width:300px;" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                    <img src="images/bass4.jpg"  style= "height:300px; width:300px;" onclick="myFunction(this);"
+                         alt= "my 6 string bass">
+                       
+            </div>
+        </div>
+        
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:50%" display="center">
+            <div id="imgtext"></div>
+        </div>
+        
+        <script>
+            function myFunction(imgs) {
+                var expandImg = document.getElementById("expandedImg");
+                var imgText = document.getElementById("imgtext");
+                expandImg.src = imgs.src;
+                imgText.innerHTML = imgs.alt;
+                expandImg.parentElement.style.display = "block";
+            }
+            </script>
+            
+            <footer>
+          
+                  <p> &copy; Ever Hernandez. Yut, Yut!!!  (USMC lingo) </p>
+          
+                </footer>
+          
+                
+                </body>
+        </body>
+        </html>
