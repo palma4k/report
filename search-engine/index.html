@@ -1,0 +1,266 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Search Engine Report</title>
+    <style>
+      html {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 10px;
+      }
+      body {
+        max-width: 1000px;
+        margin: auto;
+        font-size: 1.9em;
+        padding: 1em;
+      }
+      footer {
+        border-top: 6px solid #999;
+        margin-top: 3em;
+        padding-top: 2em;
+      }
+      header h1 {
+        background-color: #336699;
+        color: #ccc;
+        padding: 0.5em;
+        border-top: 5px solid #6699cc;
+        border-radius: 10px;
+        margin-left: -1em;
+        margin-right: -1em;
+      }
+      header nav ul {
+        list-style-type: none;
+        background-color: #999;
+      }
+      header nav ul li {
+        display: inline-block;
+      }
+      header nav ul li a {
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+      }
+      header nav ul li a:hover {
+        background-color: #666;
+      }
+      dt {
+        border-top: 2px solid #000;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      #top-dl dd {
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
+      #top-dl dd:last-child {
+        border-bottom: 2px solid #000;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        margin-left: inherit;
+        padding-left: 2em;
+      }
+      .smaller {
+        font-size: 0.8em;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 6px;
+      }
+      td.unused {
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Search engine report</h1>
+      <div w3-include-html="nav.html"></div>
+      <!-- reference the location of your nav.html -->
+    </header>
+    <main>
+      <section>
+        <h2>Search engines</h2>
+        <dl id="top-dl">
+          <dt>How does a search engine work?</dt>
+
+          <dd>Search engines work by crawling hundreds of billions of pages using their own <a href="https://www.deepcrawl.com/knowledge/technical-seo-library/how-do-search-engines-work/">web</a> crawlers. 
+            These web crawlers are commonly referred to as search engine bots or spiders. 
+            A search engine navigates the web by downloading web pages and following 
+            links on these pages to discover new pages that have been made available.</dd>
+
+          <dt>
+            Why do different search-engines give different ranking to websites
+            for the same search phrase?
+          </dt>
+
+          <dd>There was a time when ranking your webpages was a simple task to do. 
+            Not much efforts were required to rank your <a href="https://www.rankwatch.com/learning/content/13-how-do-search-engine-rank-web-pages">website</a>. 
+            Put some keywords in your content, use those keywords again and again, build spammy links, and you are done!
+              That was the case few years back, But after Google coming into existence with its updates, 
+              people are facing hard time to rank their webpages organically.
+              To know how Search engines rank webpages it’s mandatory to know what are Search Engines.</dd>
+
+          <dt>What is a &lt;meta /&gt; tag?</dt>
+
+          <dd>In HTML, meta tags or <a href="https://www.computerhope.com/jargon/m/metatags.htm">meta</a> elements are tags placed in the head 
+            section of your code that help define the contents of a web page. 
+            For example, a description meta tag is used by Internet search engines 
+            to display a description of your page in their search results.</dd>
+
+          <dt>What is the purpose for Keyword and Description meta tags?</dt>
+
+          <dd>Meta elements are typically used to specify page description, 
+            keywords, author of the document, last modified, 
+            and other <a href="https://www.w3schools.com/tags/tag_meta.asp">metadata</a>. The metadata can be used by browsers 
+            (how to display content or reload page), 
+            search engines (keywords), or other web services</dd>
+
+          <dt>Why might you include meta tags in your pages?</dt>
+          <dd>In the past, <a href="https://www.sitepoint.com/meta-tags-html-basics-best-practices/"> meta </a> tags were used by 
+            search engines to index web pages based on title, description, and even keywords. 
+            ...So while a good meta description will not improve your ranking, 
+            it will increase click-through rates to your website from search pages</dd>
+          <dt>
+            Do meta tags make your pages more easily searchable or improve its
+            ranking?
+          </dt>
+          <dd>It improves the searchability, not so much the ranking. according to the answer above.</dd>
+          <dt>
+            What are several ways that you can publicize your personal website
+            project and make it more visible on the web?
+          </dt>
+          <dd>
+            <ol>
+              <li>Register with Google Search Console and Bing Webmaster Tools</li>
+              <li>Optimize and submit a sitemap to search engines</li>
+              <li>Check for Crawl Errors</li>
+              <li>Make sure your website is mobile friendly and fast</li>
+              <li>Publish relevant and engaging content on a regular basis</li>
+              <li>Target Long Tail Keywords</li>
+              <li>Optimize your title and meta descriptions</li>
+              <li>Optimize your content for Rich Snippets</li>
+              <li>Promote your brand online</li>
+              <li>Perform an SEO Audit of your Website</li>
+              <a href="https://www.reliablesoft.net/increase-website-visibility/"> Click here for more Information</a>
+            </ol>
+            </dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Comparable websites</h2>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>URL</th>
+              <th>Words used in page titles and headings</th>
+              <th>
+                Words used in <em>Description</em> meta tags
+                <span class="smaller"
+                  >(or "none" if no description tags are used)</span
+                >
+              </th>
+              <th>
+                Words used in <em>Keyword</em> meta tags
+                <span class="smaller"
+                  >(or "none" if no keyword tags are used)</span
+                >
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2">Talk bass</th>
+              <td colspan="4"><a href="https://www.talkbass.com/threads/first-jam-session.1333453/">Site 1 URL</a></td>
+            </tr>
+            <tr>
+              <td class="unused">&nbsp;</td>
+              <td>titleTalkBass.comtitle</td>
+              <td>meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /</td>
+              <td>could not find them</td>
+            </tr>
+            <tr>
+              <th rowspan="2">become a bassist</th>
+              <td colspan="4"><a href="https://becomeabassist.com/how-to-jam-on-bass/">site 2 URL</a> </td>
+            </tr>
+            <tr>
+              <td class="unused">&nbsp;</td>
+              <td>title How to Jam on Bass title</td>
+              <td>meta name="viewport" content="width=device-width, initial-scale=1"/ </td>
+              <td>meta name="generator" content="WordPress 5.2.4" /</td>
+            </tr>
+            <tr>
+              <th rowspan="2">instructables</th>
+              <td colspan="4"><a href="https://www.instructables.com/id/How-to-be-a-good-Jam-Musician/"> Site 3 URL </a></td>
+            </tr>
+            <tr>
+              <td class="unused">&nbsp;</td>
+              <td> none </td>
+              <td> none </td>
+              <td> none </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Research-based updates</h2>
+        <dl id="bottom-dl">
+          <dt>
+            Based on your research, suggest appropriate updates to your
+            website's titles and headings.
+          </dt>
+          <dd><p> title Ever Hernandez title </p></dd>
+          <dt>
+            Based on your research, create a Description meta tag and a Keywords
+            meta tag (and an Author meta tag) for inclusion your site.
+          </dt>
+          <dd>
+            <p><strong>Description:</strong></p>
+            <p>meta name="viewpoint" content="width=device-width"/</p>
+          </dd>
+          <dd>
+            <p><strong>Keywords:</strong></p>
+            <p>meta charset="utf-8"</p>
+          </dd>
+          <dd>
+            <p><strong>Author:</strong></p>
+            <p> meta name="author" content="ever Hernandez"</p>
+          </dd>
+          <dt>
+            List three techniques to publicize your site that makes sense for
+            its purpose and its audience.
+          </dt>
+          <dd>
+            <ol>
+            <li>Make sure your website is mobile friendly and fast</li>
+            <li>Optimize your title and meta descriptions</li>
+            <li>Register with Google Search Console and Bing Webmaster Tools</li>
+            </ol>
+          </dd>
+        </dl>
+      </section>
+    </main>
+    <footer>
+      &copy;Ever Hernandez
+    </footer>
+    <!-- Enable includes -->
+    <script src="../scripts/includes.js"></script>
+
+    <!-- If you are wanting to use includes throughout your site, you'll have to change the above link to be whatever 
+      location your script is in. For me, it would be "/bit112-fall-2019/scripts/includes.js" because my site is 
+      https://alboss-cascadia.github.io/bit112-fall-2019/ -->
+
+    <script>
+      includeHTML();
+    </script>
+  </body>
+</html>
